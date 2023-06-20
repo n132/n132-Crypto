@@ -7,6 +7,17 @@
 # Brooklyn, NY
 # AD 06/19/2023
 # ==============
+# Ref
+'''
+# Wiki
+[AES Key Schedule](https://en.wikipedia.org/wiki/AES_key_schedule)
+[Sbox](https://en.wikipedia.org/wiki/Rijndael_S-box)
+[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+[MixColumns](https://en.wikipedia.org/wiki/Rijndael_MixColumns)
+[CBC](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)
+# Personal Implementation
+[Personla-AES-CBC-Implementation](https://xuanxuanblingbling.github.io/ctf/crypto/2019/10/25/aes/)
+'''
 from pwn import *
 import os
 import profile
